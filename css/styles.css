@@ -1,0 +1,200 @@
+/* Colores
+#00C2D1 TURQUESA OSCURO
+#0A1045 AZUL REAL OSCURO
+#F9E900 AMARILLO MEDOI
+#C8BDD7 LAVANDA LANGUIDA
+#517898 AZUL ACERO
+#2A1044 violeta
+#AF4166
+*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  
+  width: 100%;
+}
+
+.navegacion,
+.redes {
+  background-color: #2a1044;
+  color: #c8bdd7;
+  font-weight: bold;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+.navegacion:hover {
+  color: #af4166;
+}
+
+.redes:hover {
+  color: #af4166;
+  transform: scale(1.5) rotate(-10deg);
+  -moz-transform: scale(1.5) rotate(-10deg);
+  -ms-transform: scale(1.5) rotate(-10deg);
+  -o-transform: scale(1.5) rotate(-10deg);
+  -webkit-transform: scale(1.5) rotate(-10deg);
+  transition-duration: 400ms;
+  opacity: 0.9;
+  transition-timing-function: ease-in-out;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.fondo {
+  background-image: url("../img/morado.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  height: 40vh;
+  width: 100%;
+  margin: 0;
+}
+
+.nombre {
+  padding-left: 10%;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border-color: #00c2d1;
+  background: #c8bdd7;
+  color: #2a1044;
+  max-width: 75%;
+}
+
+.frase {
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border-color: #00c2d1;
+  background: #c8bdd7;
+  
+  color: #2a1044;
+  max-width: 75%;
+}
+
+/*Foto*/
+.yo {
+  height: 100%;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgba(34, 1, 26, 0.8);
+}
+
+.icon {
+  font-size: 5rem;
+}
+
+
+
+/*Efecto brillo reducido*/
+.neon {
+  color: #fff;
+  margin-top: 5%;
+  text-shadow:
+		/* 0 0 5px rgba(0,178,255,1), */ 0 0 10px rgba(0, 178, 255, 1),
+    0 0 20px rgba(0, 178, 255, 1), 0 0 40px rgba(38, 104, 127, 1),
+    0 0 80px rgba(38, 104, 127, 1);
+
+}
+
+.bg {
+  background-color: whitesmoke;
+  font-style: italic;
+  padding: 10px;
+  color: #2a1044;
+  border-color: #c8bdd7;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.bg-recto {
+  background-color: #c8bdd7;
+  font-style: italic;
+  padding: 10px;
+  color: #2a1044;
+}
+
+.contacto {
+  
+  max-width: 60%;
+  background-image: url("../img/morado.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.send {
+  background-color: #2a1044;
+}
+
+.send:hover {
+  background-color: #af4166;
+}
+
+footer {
+  
+  background-color: #517898;
+  
+  color: #0a1045;
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.carita:hover {
+  font-size: 50px;
+  transform: scale(1.5) rotate(-10deg);
+  -moz-transform: scale(1.5) rotate(-10deg);
+  -ms-transform: scale(1.5) rotate(-10deg);
+  -o-transform: scale(1.5) rotate(-10deg);
+  -webkit-transform: scale(1.5) rotate(-10deg);
+  transition-duration: 200ms;
+  opacity: 0.9;
+  transition-timing-function: ease-in-out;
+  color: #af4166;
+}
+
+.copy {
+  color: #0a1045;
+  padding-right: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+  .icon {
+    font-size: 85px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .icon {
+    font-size: 45px;
+  }
+}
